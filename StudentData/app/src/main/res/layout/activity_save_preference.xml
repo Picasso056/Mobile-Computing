@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="fill_horizontal|center_horizontal"
+    android:id="@+id/Save">
+
+    <EditText android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ENTER NAME"
+        android:layout_marginTop="100dp" />
+
+    <EditText android:id="@+id/RollNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ENTER ROLL NO"
+        android:layout_marginTop="20dp" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SAVE"
+        android:id="@+id/save_savepeference"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:onClick="saveSharedPreference" />
+
+    <Button
+        android:text="FETCH"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:id="@+id/fetch"
+        android:onClick="fetchdata" />
+
+</LinearLayout>

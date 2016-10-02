@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="fill_horizontal|center_horizontal"
+    android:id="@+id/Save">
+
+    <EditText android:id="@+id/courseNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ENTER COURSE NO"
+        android:layout_marginTop="100dp" />
+
+    <Button
+        android:text="SEARCH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/searchButton"
+        android:onClick="searchSql" />
+
+    <EditText android:id="@+id/searchdatas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=""
+        android:layout_marginTop="100dp" />
+
+
+</LinearLayout>

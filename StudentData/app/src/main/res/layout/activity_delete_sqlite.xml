@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="fill_horizontal|center_horizontal"
+    android:id="@+id/Save">
+
+    <EditText android:id="@+id/course"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ENTER COURSE NO"
+        android:layout_marginTop="100dp" />
+
+        <Button
+            android:text="DELETE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/delete"
+            android:onClick="delete" />
+
+
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="fill_horizontal|center_horizontal"
+    android:id="@+id/Save">
+
+    <EditText android:id="@+id/courseupdated"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ENTER COURSE NO"
+        android:layout_marginTop="100dp" />
+
+    <EditText android:id="@+id/marksupdated"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ENTER MARKS"
+        android:layout_marginTop="20dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:text="UPDATE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/updatesupdated"
+            android:onClick="updateSQLit" />
+    </LinearLayout>
+</LinearLayout>
